@@ -1,5 +1,5 @@
 
-class aplicacion {
+class Aplicacion {
     constructor (nombre, cd, puntos, peso) {
         this.nombre = nombre;
         this.cantDeDescargas = cd;
@@ -34,9 +34,9 @@ class aplicacion {
     }
 }
 
-disx = new aplicacion("DisX","2M", "4.5/5 estrellas", "350MB");
-dispro = new aplicacion("DisPro+","1M", "4/5 estrellas", "250MB");
-iluspro = new aplicacion("Ilus Pro+","500k", "3.5/5 estrellas", "150MB");
+disx = new Aplicacion("DisX","2M", "4.5/5 estrellas", "350MB");
+dispro = new Aplicacion("DisPro+","1M", "4/5 estrellas", "250MB");
+iluspro = new Aplicacion("Ilus Pro+","500k", "3.5/5 estrellas", "150MB");
 
 document.write(disx.mostrarEstadisticas());
 document.write(dispro.mostrarEstadisticas());
