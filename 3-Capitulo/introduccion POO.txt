@@ -1,0 +1,34 @@
+15) POO
+    - Definicion y usos: una de las tantas formas para crear soluciones
+
+16) Conceptos Basicos de POO
+    - Clases: Una plantilla que creamos para crear objetos, con ella le podemos dar las cualidades que nosotros queramos a los objetos que creemos dentro de ella.
+    Funciona como una fabrica de objetos
+
+    - Objetos: Lo se crea con las clases
+
+    - Atributos: Las caracteristicas que tendran los objetos que se creen con tal clase
+
+    - Metodo: Las cosas que puede hacer nuestro objeto
+
+    - Constructor: Es una particularidad que tienen las clases,
+    Es una funcion obligatoria, cuando creamos una clase tendremos que crear un constructor que construira las propiedades de los objetos
+
+    - Instanciadas: despues de crear una clase, se puede decir que la clase esta instanciadas
+
+    - Un metodo es una funcion pero dentro de una clase
+
+    - Las funciones flechas no pueden ser usadas para crear metodos dentro de las clases
+
+17) Caracteristicas de la POO
+    - Abstraccion: Intentar reducir lo que mas podamos el objeto, reducir todos sus componentes Basicos, quedandonos con las cosas mas importantes del objeto de manera resumida
+
+    - Modularidad: Es la capacidad de resolver un problema grande, separandolo por partes
+
+    - Encapsulamiento: Hacer que la data este oculta o que sea dificil de acceder
+
+    - Polimorfismo: Consiste en ver como los objetos se comporta de manera distinta ante el mismo metodo.
+    ejemplo: si en la clase "animal" hay un metodo "caminar" un gato va a caminar distinto que un perro, o que una gallina y asi.
+
+18) Otros conceptos de POO
+    
