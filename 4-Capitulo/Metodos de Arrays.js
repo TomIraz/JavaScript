@@ -3,12 +3,12 @@
 // pop
 let nombres = ["pedro", "maria", "jorge"];
 nombres.pop()
-document.write(nombres + "<br>") // eliminara jorgue de "nombres"y lo pondra en "resultado"
+document.write(nombres + "<br>") // eliminara jorgue de "nombres"
 
 // shift
 let nombres1 = ["pedro", "maria", "jorge"];
 nombres1.shift()
-document.write(nombres1 + "<br>")// eliminara pedro de "nombres"y lo pondra en "resultado"
+document.write(nombres1 + "<br>")// eliminara pedro de "nombres"
 
 // push
 let nombres2 = ["pedro", "maria", "jorge"];

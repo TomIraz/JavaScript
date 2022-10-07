@@ -1,0 +1,8 @@
+//typeof
+let number = 1;
+console.log(typeof(number)); //int
+
+//has()
+let a = [1,2,3];
+let valor = 3;
+console.log(a.has(val)) //nos dira si es verdadero o falso si el val esta dentro de del array o set.

@@ -1,0 +1,136 @@
+DOM (Document Object Model)
+    
+    - Definicion: Es una interfaz que contiene todos los elementos estandar que nos permiten representar un docuemnto HTML, XML, XHTML, que a su vez tiene otra interfaz que nos permite decir que cosa convina con otra. Y otra interfaz que nos permite trabajarla con un lenguaje como JavaScript.
+
+    - Concepto Extendido: Es el documento que tiene todos los elementos
+
+    - Nodo - Un nodo en el DOM es cualquier etiqueta del cuerpo, como un parrafo, el mismo body o incluso las etiquetas de una lista.
+
+        *Document: El nodo Document es el nodo raiz, a partir del cual derivan el resto de nodos.
+        
+        *Element: Nodos definidos por etiquetas html.
+        
+        *Text: El texto dentro de un nodo Element se considera un nuevo nodo hijo de tipo text (texto).
+        
+        *Attribute: Los atributos de las etiquetas definen nodos. (en JavaScript no los veremos como nodos, sino como informacion asociada al nodo de tipo Element).
+        
+        *Comentarios y otros: Los comentarios y otros elementos como las declaraciones doctype en cabecera de los documentos HTML generan nodos.
+
+        NAME                        VALUE X(SI NO LO VEREMOS)
+
+        ELEMENT_NODE                    1
+        ATTRIBUTE_NODE                  2 XXXX
+        TEXT_NODE                       3
+        CDATA_SECTION_NODE              4 XXXX
+        ENTITY_REFERENCE_NODE           5 XXXX
+        ENTITY_NODE                     6 XXXX
+        PROCESSING_INSTRUCTION_NODE     7
+        COMMENT_NODE                    8
+        DOCUMENT_NODE                   9
+        DOCUMENT_TYPE_NODE              10
+        DOCUEMNT_FRAGMENT_NODE          11
+        NOTATION_NODE                   12 XXXX
+
+
+
+Document________Metodos de Seleccion de Elementos________
+
+    - document.getElementById() - Selcciona un elemento por ID
+    - document.getElementsByTagName() - Selecciona todos los elementos que coincidan con el nombre de la etiqueta especificada.
+    - document.querySelector() - Devuelve el primer elemento que coincida con el grupo especificado de selectores.
+
+
+Metodos para Definir, Obtener y Eliminar atributos.
+
+    - setAttribute() - Modifica el valor de un atributo
+
+    - getAttribute() - Obtiene el valor de un atributo
+
+    - removeAttribute() - Remueve el valor de un atributo
+
+
+Atributos Globales
+
+    - class - lista de clases del elemnto separadas por espacios
+    - contenteditable - indica si el elemento puede ser modificable por el usuario (bool)
+    - dir - indica la dierccionalidad del texto
+    - hidden - indica si el elemento aun no es, o ya no es, relevante.
+    - id - define un identificador unico.
+    - style - contiene declaraciones de estilo CSS para ser aplicadas al elemento.
+    - tabindex - indica si el elemento puede obtener un focus de input
+    - title - contiene un texto con informacion relacionada al elemento al que pertenece.
+
+Atributos de Inputs
+
+    - className
+    - value
+    - type
+    - accept
+    - form
+    - minLength
+    - placeholder
+    - required
+
+Atributos style
+
+    - Usos y ejemplos
+    - Propiedades Camel Case
+
+
+Clases, classList y Metodos de classList
+
+    - Definicion y usos: Es una particularidad de las clases de los objetos
+    - add() - añade una clase
+    - remove() - remueve una clase
+    - item() - devuelve la clase del indice
+    - contains() - verifica si ese elemento posee o no, la clase especificada
+    - replace() - reemplaza una clase por otra
+    - toogle() - si no tiene la clase especificada, la agrega, si ya la tiene, la elimina
+
+
+Obtencion y Modificacion de Elementos
+
+    - textContent - devuelve el texto de cualquier nodo.
+    - innerText - devuelve el texto visible de un node element.
+    - outerText - devuelve el teto que de las etiquetas html incluidas las etiquetas.
+    - innerHTML - devuelve el contenido html de un elemento.
+    - outerHTML - devuelve el codigo HTML comleto del elemento.
+
+
+Creacion de Elementos
+
+    - createElement() - crea un elemento
+    - appendChild() - agrega un hijo
+    - createTextNode() - crea un text node
+    - createDocumentFragment() - 
+
+Obtencion y modificacion de Childs (Hijos) - Son Propiedades
+
+    - firstChild - Nos mostrara lo primero que exista luego, en este caso como hay un salto de linea
+    - lastChild
+    - firstElementoChild - Nos mostrara el primer Elemento Hijo
+    - lastElementChild
+    - childNodes - Nos mostrar todos lo que exista dentro de el contenedor contando los saltos de lineas y espacios
+    - children - Nos mostrara todos los elementos dentro del contenedor
+
+Metodos de Childs (Hijos)
+
+    - replaceChild() - Reemplaza un hijo por otro
+    - removeChild() - Remueve un hijo
+    - hasChildNodes() - Para verificar si tiene un elemento hijo o no, si un elemento tiene texto dentro, como un h2 con titulo, el titulo contaria como hijo
+
+Propiedades de parents (Padres)
+
+    - parentElement
+    - parentNOde
+
+Propiedades de Siblings (Hermanos)
+
+    - nextSibling
+    - previoussibling
+    - nextElementSibling
+    - previousElementSibling
+
+Nodos - Extras
+
+    - closest()

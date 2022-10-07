@@ -2,7 +2,7 @@ Objeto Math - Basico
 
 ____Metodos____
         - sqrt() - Devuelve la raiz cuadrada positiva de un numero.
-        - cbrt() - Devuelve la raiz cubia de un numero.
+        - cbrt() - Devuelve la raiz cubica de un numero.
         - max() - Devuleve el mayor de cero o mas numeros.
         - min() - Devuelve el mas pequeño de cero o mas numeros.
         - random() - Devuelve un numero pseudo-aleatorio entre 0 y 1.

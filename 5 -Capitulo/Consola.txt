@@ -1,0 +1,31 @@
+Consola
+
+        ------------ Funciones de Registro
+        - console.assert() - Aparece un mensaje de error en la consola si la afirmacion es falsa. Si la afirmacion es verdadera, no aparecera nada. (NO ESTANDAR)
+        - console.clear() - Limpia la consola
+        - console.error() - Muestra un mensaje de error en la consola web.
+        - console.info() - Emite un mensaje informativo a la consola web. En firefox y chrome, se muestra un pequeño icono "i" junto a esos elementos en el registro de la consola web.
+        - console.log() - Muestra un mensaje en la consola web (o del interprete JavaScript).
+        - console.table() - Esta funcion toma un argumento obligatorio: data, que debe ser un array o un objeto, y un parametro adicional: columns y nos muestra una tabla en consola.
+        - console.warn() - Imprime un mensaje de advertencia en la consola web.
+        - console.dir() - Despliga una lista interactiva de las propiedades del objeto JavaScript. (NO ESTANDAR)
+
+
+
+        ------------ Funciones de Conteo
+        - console.count() - Registra el numero de veces que se llama a count(). Esta funcion toma como argumetno opcional una etiqueta.console.
+        - console.countReset() - Resetea el contador console.count().
+
+
+
+        ------------ Funciones de Agrupacion.
+        - console.group() - Crea un nuevo grupo en linea en el registro de la consola web.
+        groupEnd() - Remueve un grupo en linea en el registro de la consola web.
+        - console.groupCollapsed() - Crea un grupo en linea pero contraido, el usuario debe expandirlo para verlo.
+
+
+
+        ------------ Funciones de Temporizador
+        - console.time() - Inicia un Temporizador.
+        - console.timeEnd() - Registra el valor actual de un temporizador.
+        - console.timeLog() - Detiene un temporizador.

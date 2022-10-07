@@ -13,7 +13,7 @@ Metodos de Cadenas
     - repeat() - Devuelve la misma cadena pero repetida la cantidad que le indiquemos.
 
 
-
+    = slice() - La cadena se quedara con los elementos que elijamos
     - split() - Divide la cadena como le pidamos.
     - substring() - Nos reotrna un pedazo de la cadena que seleccionamos.
     - toLowerCase() - Convierte una cadena a minuscula.

@@ -1,6 +1,6 @@
 //Funciones
 
-// Esto es creando una funcion
+// Asi creamos una funcion
 function saludar (){
 
 respuesta = prompt("Hola Lucas! Como fue tu dia?");
@@ -12,7 +12,7 @@ else {
 }
 
 }
-// esto es llamar una funcion
+// Asi llamamos a una funcion
 saludar()
 
 

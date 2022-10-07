@@ -1,5 +1,4 @@
 // concat()
-
 let cadena = "cadena de prueba";
 let cadena2 = " cadena 2";
 
@@ -15,7 +14,7 @@ document.write(resultado1); // nos dira si esta la cadena4 al principio de la ca
 // endssWith()
 let cadena5 = "cadena de prueba";
 let cadena6 = " cadena 2";
-resultado2 = cadena5.endssWith(cadena6);
+resultado2 = cadena5.endsWith(cadena6);
 document.write(resultado2); // nos dira si esta la cadena4 al final de la cadena3, tiene que terminar exactamente como es la cadena4
 
 //includes
@@ -33,8 +32,9 @@ document.write(resultado4);
 //lastIndexOf
 let cadena11 = "cadena de prueba";
 let cadena12 = "cadena 2";
-resultado5 = cadena11.lastIndexOf(cadena12); // nos dira el ultimo index conel que empieza la ultima cadena que encontro.
+resultado5 = cadena11.lastIndexOf(cadena12); // nos dira el ultimo index con el que empieza la ultima cadena que encontro.
 document.write(resultado5);
+console.log(resultado5);
 
 //padStart
 let cadena13 = "cadena de prueba";
@@ -52,3 +52,8 @@ document.write(resultado7);
 let cadena17 = "cadena de prueba";
 let cadena18 = "cadena 2";
 resultado7 = cadena11.repeat(4); // repite una cadena la cantidad de veces que nosotros le decimos.
+
+//slice()
+let cadena19 = "Hola";
+resultado19 = cadena19.slice(0,3); //resultado pasara a ser "hol" dado slice se queda con el rango elegido y desecha los demas elementos, pero sin modificar la cadena original
+document.write(resultado19);

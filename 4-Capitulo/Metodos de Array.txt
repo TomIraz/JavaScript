@@ -7,7 +7,7 @@ ____Transformadores____
         - push() - Agrega un elemnto al array al final de la lista.
         - reverse() - Invierte el orden de los elementos de una array.
         - unshift() - Agrega uno o mas elementos al inicio del array, y devuelve la nueva longitud del array.
-        -sort() - Ordena los elementos de un array localmente y devuelve el array ordenado.
+        - sort() - Ordena los elementos de un array localmente y devuelve el array ordenado.
         - splice() - Cambia el contenido de un array eliminando elementos existentes y/o agregando nuevos elementos.
 
 ____Accesores____
@@ -17,4 +17,4 @@ ____Accesores____
 
 ____De Repeticion____
         - filter() - Crear un nuevo array con todos los elementos que cumplan la condicion.
-        - for Each() - Ejecuta la funcion indicada una vez por cada elemento del array.
+        - forEach() - Ejecuta la funcion indicada una vez por cada elemento del array.
